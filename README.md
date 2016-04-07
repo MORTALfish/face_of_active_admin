@@ -12,20 +12,20 @@ Active Admin Face
 
 Theme for [Active Admin](https://github.com/activeadmin/activeadmin), based on 
 [Flattened Active Admin](https://github.com/Papercloud/flattened_active_admin) and 
-[ActiveSkin](https://github.com/rstgroup/active_skin). I've take all the best,
-re-factor code and implement vector icons from 
+[ActiveSkin](https://github.com/rstgroup/active_skin). I've taken all the best,
+refactored code and implemented vector icons from 
 [Font-Awesome](https://github.com/FortAwesome/Font-Awesome/). 
 
 IE 10+ tested
 
 ### List of changes
 
-1. Main menu rewritten to flex from talbe.
+1. Main menu rewritten to flex from table.
 2. All icons moved to vector format
-3. Stylize datedicker & fix date format to usual
-4. Added hover for the most actions
+3. Stylized datepicker & fixed date format to usual
+4. Added hover for most of the actions
 5. Added default styling for a tables, index tables styling improved also
-6. Clean up as possible from `!important` tags for easier future customization
+6. Cleaned up as much as possible from `!important` tags for easier future customization
 7. Tabs rewritten
 and some minor goodies, which I can not remember now
 
@@ -84,8 +84,8 @@ And that's it, welcome to your new interface!
 Customisation
 =============
 
-Face of Active Admin allows you to change the color schemes of Activbe Admin with 
-ease, create a completely different look and feel to your interface.
+Face of Active Admin allows you to change the color schemes of Active Admin with 
+ease, create a completely different look and feel for your interface.
 
 Once you have the theme working, you can include the 
 custom variables by running the generator:
@@ -101,7 +101,7 @@ In order to make these work, add this line **TO THE TOP** of your `active_admin.
 @import "face_of_active_admin/variables";
 ```
 
-Once you have done this you can customize the variables you your hearts content.
+Once you have done this you can customize the variables to your heart's content.
  Anything changed here will override the Active Admin Defaults.
 
 ### Important

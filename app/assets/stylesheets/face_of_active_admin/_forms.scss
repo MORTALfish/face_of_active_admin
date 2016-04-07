@@ -219,7 +219,7 @@ form {
 
   // Selects
   select {
-    width: 264px;
+    width: 80%;
     padding-left: 5px;
     line-height: 1;
     border: 1px solid #5e6469;
@@ -227,6 +227,10 @@ form {
     height: 30px;
 
     @include select_arrow;
+  }
+
+  select[multiple] {
+    height: 200px;
   }
 
   fieldset > ol > li {

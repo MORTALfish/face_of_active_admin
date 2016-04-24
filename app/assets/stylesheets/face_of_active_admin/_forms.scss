@@ -349,6 +349,27 @@ form {
     }
   }
 
+  /* Datetime selects*/
+
+  li.datetime_select {
+    li.fragment {
+      display: inline-block;
+      margin-right: 1em;
+
+      label {
+        display: inline-block;
+        margin-right: 1em;
+        width: auto;
+        top: 12px;
+        position: relative;
+      }
+
+      select {
+        width: 6rem;
+      }
+    }
+  }
+
   /* Buttons */
 
   input[type=submit] {

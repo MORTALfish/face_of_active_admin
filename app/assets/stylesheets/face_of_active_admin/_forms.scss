@@ -370,6 +370,22 @@ form {
     }
   }
 
+  /* nested datetime selects*/
+
+  li.has_many_container {
+    li.datetime_select {
+      fieldset.fragments {
+        ol.fragments-group {
+          margin-left: 20%;
+
+          li.fragment > label {
+            top: 8px;
+          }
+        }
+      }
+    }
+  }
+
   /* Buttons */
 
   input[type=submit] {

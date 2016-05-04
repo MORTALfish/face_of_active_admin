@@ -11,6 +11,8 @@
 
   margin: 0;
   padding: $horizontal-page-padding;
+  position: relative;
+  z-index: 10;
 
   #main_content_wrapper {
     float: left;

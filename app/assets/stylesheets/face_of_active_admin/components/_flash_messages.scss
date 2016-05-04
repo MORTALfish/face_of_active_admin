@@ -11,6 +11,7 @@ body.logged_in {
       position: relative;
       top: 0px;
       text-shadow: none;
+      z-index: 10;
 
       &.flash_notice {
         background-color: #dce9dd;

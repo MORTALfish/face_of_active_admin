@@ -4,21 +4,17 @@ $(document).on 'ready page:load', ->
 
     # Only create datepickers in compatible browsers
     return if input[0].type is 'date'
-    input.datepicker( "option", "dateFormat", "dd-mm-yy" );
+    console.log input
+    input.datepicker( "option", "dateFormat", "dd-mm-yy" )
     # defaults = dateFormat: 'dd-mm-yy'
     # options  = input.data 'datepicker-options'
     # input.datepicker $.extend(defaults, options)
   
-  datepickers = $('.datepicker')
-  $.each datepickers, (_, date) ->
-    date_attr = $(date).attr('value')
-    return if date_attr == undefined
-    if date_attr.length != 0
-      year = date_attr.slice(0,4)
-      month =  date_attr.slice(5,7)
-      day =  date_attr.slice(8,10)
-      date.value = (day+'-'+month+'-'+year)
-  
+
+  $('.datepicker:not(.hasDatepicker)').each ->
+    if $(@).val().length > 0
+      p = $(@).val().split('-')
+      $(@).val("#{p[2]}-#{p[1]}-#{p[0]}") 
 
   change_to_icon('.view_link', 'eye')
   change_to_icon('.delete_link', 'trash')

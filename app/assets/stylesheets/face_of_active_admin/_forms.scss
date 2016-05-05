@@ -375,13 +375,22 @@ form {
   li.has_many_container {
     li.datetime_select {
       fieldset.fragments {
-        ol.fragments-group, ol.choices-group {
+        ol.fragments-group {
           margin-left: 20%;
 
           li.fragment > label {
             top: 8px;
           }
         }
+      }
+    }
+  }
+
+  /* nested radio*/
+  fieldset.has_many_fields {
+    fieldset.choices {
+      ol.choices-group {
+        margin-left: 20%;
       }
     }
   }

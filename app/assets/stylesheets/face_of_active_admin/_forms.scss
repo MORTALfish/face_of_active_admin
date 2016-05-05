@@ -375,7 +375,7 @@ form {
   li.has_many_container {
     li.datetime_select {
       fieldset.fragments {
-        ol.fragments-group {
+        ol.fragments-group, ol.choices-group {
           margin-left: 20%;
 
           li.fragment > label {

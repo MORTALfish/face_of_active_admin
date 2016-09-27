@@ -174,7 +174,7 @@
         list-style: none;
         z-index: 1;
         transform: translateZ(0);
-        transition: opacity 0s ease 0s, z-index 0s linear 1s;
+        transition: opacity 0s ease 0s, z-index 0s linear 0s;
 
         li {
           margin: 0px;

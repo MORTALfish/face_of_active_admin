@@ -3,7 +3,6 @@
   @include header-background-gradient;
 
   background: $page-header-background-color;
-  height: 50px;
   width: 100%;
   position: inherit;
   padding: 0;
@@ -88,7 +87,6 @@
 
     & > li {
       display: inline-block;
-      margin-right: 2px;
       margin-top: 3px;
       margin-bottom: 3px;
       position: relative;
@@ -98,8 +96,6 @@
         padding: 13px 20px;
         margin: 0;
         position: relative;
-
-        @include rounded(10px);
 
         transition: $link_transition_dutarion;
       }
@@ -138,7 +134,6 @@
 
       &.has_nested:hover > a {
         // TODO!!
-        @include rounded-top(10px);
 
         //border-bottom: 5px solid lighten($current-menu-item-background, 10%);
         border: none;
@@ -179,7 +174,6 @@
         list-style: none;
         z-index: 1;
         transform: translateZ(0);
-        transform: translateY(2em);
         transition: opacity 0s ease 0s, z-index 0s linear 1s;
 
         li {
